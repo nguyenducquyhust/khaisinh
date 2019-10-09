@@ -25,6 +25,7 @@ public class KhaiSinhService {
         ConnectDB data = new ConnectDB();
         Connection conn = data.getConnection();
         if(conn != null)
+            System.out.println("mai an cut");
             return true;
         return false;
     }
